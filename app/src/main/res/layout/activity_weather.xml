@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".weatherActivity">
+
+    <ImageView
+        android:id="@+id/imgweather"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        app:srcCompat="@drawable/weather" />
+
+    <ImageView
+        android:id="@+id/weatherbackground"
+        android:layout_width="372dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp" />
+
+
+    <EditText
+        android:id="@+id/txtcity"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter a city"
+        android:inputType="textPersonName" />
+
+
+
+        <Button
+            android:id="@+id/btnchoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:text="choose"
+            app:backgroundTint="#97B5C3" />
+
+
+    <TextView
+        android:id="@+id/town"
+        android:layout_width="284dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/humidity1"
+        android:layout_width="284dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="65dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+
+</LinearLayout>

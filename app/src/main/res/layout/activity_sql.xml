@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".sqlActivity">
+
+    <ImageView
+        android:id="@+id/imgweather"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        app:srcCompat="@drawable/weather" />
+
+    <EditText
+        android:id="@+id/txtID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtSurname2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Surname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtFather2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Father's Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNational2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter National ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtBday2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Enter Birth Date"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtGender2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Enter Gender"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="Add"
+            app:backgroundTint="#97B5C3" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="view"
+            app:backgroundTint="#97B5C3" />
+
+        <Button
+            android:id="@+id/btnUpdate2"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="update"
+            app:backgroundTint="#97B5C3" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:text="delete"
+            app:backgroundTint="#97B5C3" />
+    </LinearLayout>
+
+
+</LinearLayout>
